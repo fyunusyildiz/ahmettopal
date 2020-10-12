@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahmet Topal</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
       body {
         margin: 0;
         padding: 0;
         overflow: hidden;
+      }
+      a {
+          text-decoration: none;
+          color: #000;
+          font-family: 'Prompt', sans-serif;
       }
       #ahmet {
         width: 100vw;
@@ -25,12 +31,53 @@
           align-items: center;
           justify-content: center;
       }
+      .name {
+          font-size: 48px;
+          font-weight: 700;
+          font-family: 'Times New Roman', serif;
+          margin-top: 50px;
+      }
+      .define {
+          font-size: 24px;
+          font-weight: 400;
+          font-family: 'Times New Roman', serif;
+          text-align: center;
+          width: 55%;
+          line-height: 1.5;
+          margin-top: 25px;
+      }
+      .buttons {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          width: 40%;
+          margin-top: 100px;
+      }
+      .buttons a {
+          font-size: 20px;
+          font-weight: 500;
+      }
+      .buttons .line {
+          width: 35px;
+          height: 1px;
+          background: #000;
+      }
     </style>
   </head>
   <body>
     <div id="ahmet">
       <div class="ahmet-container">
         <img src="img/ahmet.png" alt="" />
+        <div class="name">Ahmet Topal</div>
+        <div class="define">Grafik tasarımcı. Ağırlıklı olarak sinema ve eğlence sektörüne afişler tasarlıyor.</div>
+        <div class="buttons">
+            <a href="https://www.behance.net/ahmet8topal">Behance</a>
+            <div class="line"></div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmet8topal@gmail.com">E-Mail</a>
+            <div class="line"></div>
+            <a href="https://www.linkedin.com/in/ahmet-topal/">LinkedIn</a>
+        </div>
       </div>
     </div>
   </body>
